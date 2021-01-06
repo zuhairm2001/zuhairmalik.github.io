@@ -124,9 +124,29 @@ header{
 .project{
     
     background-color: white;
-    width: 80%;
-    height: 150px;
+    width: auto;
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 3%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3%;
+    display: block;
+    position: relative;
+
+    
+    
+}
+
+.projectsdesc{
+    color: white;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
