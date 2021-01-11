@@ -1,5 +1,3 @@
-
-
 body{
     background-color: #242121;
 }
@@ -14,12 +12,10 @@ ul{
     list-style: none;
 }
 
-
 li{
     
     font-family: arial;
 }
-
 
 .logo{
     margin-left: auto;
@@ -30,11 +26,9 @@ li{
     resize: both;
 }
 
-
 header{
     
 }
-
 
 .projectsbutton{
     
@@ -44,7 +38,7 @@ header{
     margin-bottom: 5%;
     display: block;
     height: auto;
-    width: auto;
+    width: 25%;
 }
 
 .contactmebutton{
@@ -53,7 +47,7 @@ header{
     margin-right: auto;
     display: block;
     height: auto;
-    width: auto;
+    width: 25%;
 }
 
 .landingpage{
@@ -62,7 +56,8 @@ header{
     padding-top: 3%;
     margin-right: auto;
     margin-left: auto;
-
+    height: auto;
+    width: 100%;
     display: block;
 }
 
@@ -124,30 +119,49 @@ header{
 
 .project{
     
-    background-color: white;
-    width: auto;
-    height: auto;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
+    width: 100%;
+    height: 100%;   
     margin-bottom: 3%;
+    margin: auto;
+    display: block;
+}
+.projectcontainerleft{
+    width:auto;
+    height:auto;
+    padding: 1%;
+    background-color: white;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    position: relative;
+}
 
-    
-    
+.projectcontainerright{
+    width:100%;
+    max-height: auto;
+    padding: 1%;
+    background-color: white;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
 }
 
 .projectsdesc{
     color: white;
+    
 }
 
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.projectdescription{
+    color: white;
 }
+
+.projectdescdiv{
+    background-color: #3e2c2c;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: auto;
+    height: auto;  
+}
+    
